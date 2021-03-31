@@ -26,8 +26,8 @@ Inicio
 
 
    escreval("Produtos: ")
-   escreval("O produto ", produto1, " custa R$ ", preco1)
-   escreval("O produto ", produto2, " custa R$ ", preco2)
+   escreval("O produto ", produto1, "custa R$", preco1)
+   escreval("O produto ", produto2, "custa R$", preco2)
    escreval
    escreval("Codigo = ", codigo)
    escreval
