@@ -1,0 +1,42 @@
+Algoritmo "menor_de_tres"
+//Fazer um programa para ler três números inteiros. Em seguida, mostrar qual o menor dentre os três
+//números lidos. Em caso de empate, mostrar apenas uma vez.
+
+Var
+   a, b, c, menor : inteiro
+
+
+Inicio
+   escreva("Primeiro Valor: ")
+   leia(a)
+   escreva("Segundo Valor: ")
+   leia(b)
+   escreva("Terceiro Valor: ")
+   leia(c)
+
+   se (a < b) e (a < c) entao
+      escreval("Menor = ", a)
+   senao
+
+      se (b < a) e (b < c) entao
+         escreval("Menor = ", b)
+      senao
+         se (c < a) e (c < b) entao
+            escreval("Menor = ", c)
+         senao
+            se (a=b) ou (a=c) ou (b=c) entao
+               escreva("Menor = ", a)
+            senao
+            fimse
+         fimse
+      fimse
+   fimse
+
+
+
+
+
+
+
+
+Fimalgoritmo
