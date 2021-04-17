@@ -1,0 +1,43 @@
+Algoritmo "combustivel"
+
+Var
+   cod, alc, gas, d : inteiro
+
+Inicio
+   alc <- 0
+   gas <- 0
+   d <- 0
+
+   escreval("Informe um código: ")
+   escreval("1 - Alcool")
+   escreval("2 - Gasolina")
+   escreval("3 - Diesel")
+   escreval("4 - Parar")
+   leia(cod)
+
+   enquanto cod <> 4 faca
+      escolha cod
+      caso 1
+         alc <- alc + 1
+      caso 2
+         gas <- gas + 1
+      caso 3
+         d <- d + 1
+
+      fimescolha
+
+      escreval("Informe um código: ")
+      escreval("1 - Alcool")
+      escreval("2 - Gasolina")
+      escreval("3 - Diesel")
+      escreval("4 - Parar")
+      leia(cod)
+   fimenquanto
+
+   escreval("Obrigado!")
+   escreval("Alcool = ", alc)
+   escreval("Gasolina = ", gas)
+   escreval("Diesel = ", d)
+
+
+Fimalgoritmo
